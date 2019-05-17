@@ -1,0 +1,31 @@
+//style blog elements
+.blog{
+  margin: 1.5rem 0;
+  color: $black;
+  min-height: 10em;
+  max-height: 12em;
+
+  & .image-cell{
+    & img{
+      width:100%;
+      height:auto;
+      min-height: 12em;
+      background-color:#030303;
+    }
+  }
+
+  & .blog_description{
+   height: 10em;
+   display: flex;
+   overflow: hidden;
+   flex-wrap: wrap;
+  }
+
+  & a{
+    color: $black;
+  }
+  & a:hover{
+    text-decoration: none;
+    text-decoration-color: #030303;
+  }
+}

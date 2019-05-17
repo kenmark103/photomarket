@@ -1,0 +1,20 @@
+.main-wrapper{
+
+}
+//style image box elements on front pages
+.row-item{
+  display: inline-flex;
+  height:60vh;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+.row-cell{
+  height:inherit;
+  margin: 5px;
+  & img{
+    width:auto;
+    min-width: 20em;
+    max-width: 40em;
+    height: inherit;
+  }
+}
